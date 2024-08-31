@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Growth-landing-page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+        <div class="main-menu">
+          <a href="index.html" class="links">Home</a>
+          <a href="#" class="links">About Us</a>
+          <a href="#" class="links">Blog</a>
+          <a href="#" class="links btn"><i class="fas fa-user"></i>Log in</a>
+        </div>
+        <!-- HAMBURGER AND MOBILE MENU -->
+        <button id="hamburger-btn" class="hamburger-btn">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu">
+          <div class="menu">
+            <a href="index.html" class="links">Home</a>
+            <a href="#" class="links">About Us</a>
+            <a href="#" class="links">Blog</a>
+            <a href="#" class="links btn"><i class="fas fa-user"></i>Log in</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-heading text-xxl">
+            A powerful solution to grow your startup. Fast!
+          </h1>
+          <p class="hero-text text-x">
+            Organize, collaborate, and track progress seamlessly with our
+            one-stop-shop startup growth tool.
+          </p>
+          <div class="hero-btns">
+            <a href="#" class="btn btn-primary">Get Started</a>
+            <a href="#" class="btn"><i class="fas fa-laptop"></i>Book a Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section class="video">
+      <div class="container-sm">
+        <h1 class="text-heading text-xl">
+          See how it works and get started in less than 2 minutes
+        </h1>
+        <div class="video-content">
+          <a href="#" class="video-preview">
+            <img src="/images/video-preview.png" alt="video" />
+          </a>
+          <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section>
+    <section class="testimonals bg-dark">
+      <div class="container">
+        <h3 class="testimonals-heading text-xl">
+          Don't just take our word for it, see the success stories from
+          businesses just like yours.
+        </h3>
+        <div class="testimonals-grid">
+          <div class="card">
+            <p>
+              “Our business has seen a significant increase in productivity
+              since we started using the Growth app.”
+            </p>
+            <p>Katherine Smith</p>
+            <p>Capodopera</p>
+          </div>
+          <div class="card">
+            <p>
+              “As a small business owner, it's important to have a tool that can
+              help me keep track of everything. The Growth app has been a
+              lifesaver for me, allowing me to manage my contacts, schedule
+              appointments, and track progress all in one place..”
+            </p>
+            <p>Johnathan Lee</p>
+            <p>Red Bolt</p>
+          </div>
+          <div class="card">
+            <p>
+              “The dashboards and reporting feature has provided valuable
+              insights into our performance and helped us make data-driven
+              decisions. It's a game changer for us.”
+            </p>
+            <p>David Wilson</p>
+            <p>Slide</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+
+    <section class="pricing bg-whtie">
+      <div class="container-sm">
+        <h2 class="pricing-headin text-xl text-center">Pricing</h2>
+        <p class="pricing-subheading text-md text-center">
+          Start free and scale while you grow. No hidden fees. Unlimited users
+          for free.
+        </p>
+        <div class="pricing-grid">
+          <!-- PRICING CARD FIRST -->
+          <div class="card bg-light">
+            <div class="pricing-card-header">
+              <h3 class="pricing-card-heading text-xl">Simple</h3>
+              <p class="pricing-card-subheading text-sm">
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metrics.
+              </p>
+              <p class="pricing-card-price">
+                <span class="text-xl">Free</span>*No credit card needed
+              </p>
+            </div>
+            <hr />
+            <div class="pricing-card-body">
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Real-Time Monitoring
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Track key performance indicators
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Schedule appointments
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Organize, delegate and keep track of tasks
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-block">Get Started</a>
+            </div>
+          </div>
+          <!-- PRICING CARD SECOND -->
+          <div class="card bg-black">
+            <div class="pricing-card-header">
+              <h3 class="pricing-card-heading text-xl">Premium</h3>
+              <p class="pricing-card-subheading text-sm">
+                Keep track of your contacts, gain valuable insights, analyze
+                live data and performance metrics.
+              </p>
+              <p class="pricing-card-price">
+                <span class="text-xl">$49</span>/month
+              </p>
+            </div>
+            <hr />
+            <div class="pricing-card-body">
+              <ul>
+                <li>Everything from the free plan plus:</li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Data-driven decisions
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  Data visualization
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  OSchedule appointments
+                </li>
+              </ul>
+              <a href="#" class="btn btn-primary btn-block">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <p class="pricing-footer text-sm text-center">
+          All prices are in USD and charged per month with applicable taxes
+          added at checkout.
+        </p>
+      </div>
+    </section>
+
+    <!--F A Q  -->
+    <section class="faq bg-light">
+      <div class="container-sm">
+        <h3 class="faq-heading text-xl text-center">
+          Frequently Asked Questions
+        </h3>
+        <ul class="faq-menu">
+          <li class="active">All</li>
+          <li>Get Started</li>
+          <li>Pricing</li>
+        </ul>
+        <div class="faq-content">
+          <div class="faq-group">
+            <div class="faq-group-head">
+              <p>
+                How does the contact management feature help me keep track of
+                clients and partners?
+              </p>
+              <i class="fas fa-add"></i>
+            </div>
+            <div class="faq-group-body active">
+              <p>
+                Keep track of your contacts, gain valuable insights, analyse
+                live data and performance metricss.
+              </p>
+            </div>
+          </div>
+          <div class="faq-group">
+            <div class="faq-group-head">
+              <p>
+                Can I customize the dashboards and reporting feature to display
+                the metrics that are most important to my business?
+              </p>
+              <i class="fas fa-add"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad
+                culpa enim blanditiis rem ipsum aliquam, unde iste fugit
+                praesentium eos?
+              </p>
+            </div>
+          </div>
+          <div class="faq-group">
+            <div class="faq-group-head">
+              <p>
+                How does the task management feature help me delegate tasks to
+                my team and track progress?
+              </p>
+              <i class="fas fa-add"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Incidunt, a! Quaerat, voluptatum. Animi molestias ex quasi
+                explicabo minima perferendis commodi.
+              </p>
+            </div>
+          </div>
+          <div class="faq-group">
+            <div class="faq-group-head">
+              <p>
+                Can I collaborate with my team in real-time using all tools?
+              </p>
+              <i class="fas fa-add"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati doloremque assumenda aut dolorem recusandae quibusdam
+                aliquid. Repellat animi quam vitae.
+              </p>
+            </div>
+          </div>
+          <div class="faq-group">
+            <div class="faq-group-head">
+              <p>Is the app available on all devices?</p>
+              <i class="fas fa-add"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati doloremque assumenda aut dolorem recusandae quibusdam
+                aliquid. Repellat animi quam vitae.
+              </p>
+            </div>
+          </div>
+          <div class="faq-group">
+            <div class="faq-group-head">
+              <p>
+                How does the app help me stay compliant when working with
+                freelancers and contractors?
+              </p>
+              <i class="fas fa-add"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati doloremque assumenda aut dolorem recusandae quibusdam
+                aliquid. Repellat animi quam vitae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer bg-black">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html" class="logo">
+              <img src="./images/logo-white.png" alt="logo" />
+            </a>
+            <div class="card">
+              <h4>Subscribe to Newsletter</h4>
+              <p>
+                Subscribe now to receive tips on how to take your business to
+                the next level.
+              </p>
+              <form action="">
+                <input type="email" placeholder="Enter your email" />
+                <button type="submit" class="btn btn-primary btn-block">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Process</a></li>
+              <li><a href="#">Join Our Team</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Researchs</a></li>
+              <li><a href="#">Recent Projects</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#">hello@growthapp.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
